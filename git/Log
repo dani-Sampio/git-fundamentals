@@ -1,0 +1,42 @@
+# Git Log
+
+## O que é o comando git log?
+
+O comando `git log` exibe o histórico de commits realizados em um repositório. Ele mostra informações como o identificador do commit (hash), autor, data e mensagem do commit.
+
+## Sintaxe
+
+```bash
+git log
+```
+
+## Quando utilizar?
+
+Utilize o `git log` sempre que quiser consultar o histórico do projeto e verificar as alterações que já foram registradas.
+
+## Exemplo
+
+```bash
+git log
+```
+
+Saída esperada:
+
+```text
+commit 8f3b7c9d...
+Author: Dani Sampaio
+Date: Sat Jul 18 2026
+
+    docs: adiciona documentação do Git
+```
+
+## Vantagens
+
+- Consultar o histórico de alterações.
+- Identificar quem realizou um commit.
+- Ver a data em que as alterações foram feitas.
+- Recuperar informações de versões anteriores.
+
+## Resumo
+
+O comando `git log` permite visualizar todo o histórico de commits do repositório, facilitando o acompanhamento da evolução do projeto.
