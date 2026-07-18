@@ -1,0 +1,43 @@
+# Git Add
+
+## O que é o comando git add?
+
+O comando `git add` é utilizado para adicionar arquivos à área de preparação (staging area). Isso significa que o Git passa a considerar essas alterações para o próximo commit.
+
+## Sintaxe
+
+```bash
+git add <arquivo>
+```
+
+ou
+
+```bash
+git add .
+```
+
+## Quando utilizar?
+
+Após criar ou modificar um arquivo, utilize o comando `git add` para informar ao Git que essas alterações deverão ser salvas no próximo commit.
+
+## Exemplos
+
+Adicionar um arquivo específico:
+
+```bash
+git add README.md
+```
+
+Adicionar todos os arquivos modificados:
+
+```bash
+git add .
+```
+
+## Observação
+
+O comando `git add` não salva as alterações definitivamente. Ele apenas prepara os arquivos para serem registrados com o comando `git commit`.
+
+## Resumo
+
+O `git add` envia os arquivos para a área de preparação (staging), deixando-os prontos para serem registrados em um commit.
