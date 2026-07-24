@@ -1,2 +1,2 @@
 # git-fundamentals 
-primeiro repositorio de git e github
+É um pequeno guia sobre git e github
